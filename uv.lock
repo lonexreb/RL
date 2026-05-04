@@ -4331,7 +4331,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "accelerate", specifier = ">=0.26" },
+    { name = "accelerate", specifier = ">=1.1.0" },
     { name = "blobfile" },
     { name = "causal-conv1d", marker = "extra == 'automodel'", git = "https://github.com/Dao-AILab/causal-conv1d?rev=67e0a9dfe1518fc0036444e9ab5fe06ab78299e0" },
     { name = "causal-conv1d", marker = "extra == 'fsdp'", git = "https://github.com/Dao-AILab/causal-conv1d?rev=67e0a9dfe1518fc0036444e9ab5fe06ab78299e0" },
